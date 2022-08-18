@@ -6,7 +6,8 @@ body {
 }
 
 .container{
-    width: 1140px;
+    
+    max-width: 1140px;
     margin: auto;
 }
 .bar{
@@ -116,7 +117,7 @@ header .header-line{
 }
 .area1--content{
     padding:80px;
-
+    
 }
 .area1--quote{
     margin-bottom:30px;
@@ -185,3 +186,35 @@ header .header-line{
     background-size: cover;
     
 }
+.area4{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    background-color: #e8e9ee;
+}
+.area4--content{
+    padding: 150px 80px;
+}
+.area4--text{
+    margin-bottom:25px;
+}
+.area4--img1{
+    background-image: url(../images/bg3.jpg);
+    background-position: left;
+}
+.area5{
+    background-image: url(../images/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    padding: 80px;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+
