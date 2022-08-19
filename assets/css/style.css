@@ -223,7 +223,7 @@ footer a{
         padding: 0px 20px;
     }
 }
-@media (min-width:425px) and (max-width:770px){
+@media (min-width: 500px) and (max-width: 770px){
     .container{
         padding: 0px 20px;
     }
@@ -236,6 +236,49 @@ footer a{
         grid-template-columns: 2fr 3fr;
     }
 }
-@media (max-width:425px) {
+@media (max-width: 499px) {
+    .container{
+        padding: 0px 20px;
+    }
+    .header--search input{
+        max-width: 80px;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .header--menu img{
+        margin-left: 20px;
+    }
+    .banner--images img{
+        width: 70px;
+        height: 70px;
+        border: 3px solid #117050;
+        border-radius:50%;
+        margin-right:10px;
+    }
+    .area1,
+    .area2,
+    .area3,
+    .area4{
+        grid-template-columns: 1fr;
+    }
+    .area1--content,
+    .area2--content,
+    .area3--content,
+    .area4--content{
+        padding:40px;
+    }
+    .area5{
+        height: 200px;
+    }
+    footer{
+        font-size: 12px;
+        padding: 40px 20px;
+    }
     
 }
